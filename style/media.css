@@ -1,0 +1,61 @@
+@media (max-width: 414px) {
+    .frame-media_left {
+        right: calc(var(--side-small) / 2.8 * var(--index) + var(--gutter));
+    }
+
+    .frame p {
+        max-width: 40vw;
+        margin-top: 1.5vh;
+    }
+
+    .text-right>* {
+        left: 26vw;
+    }
+
+    .frame-media_right {
+        left: calc(var(--side-small) / 10 * var(--index) + var(--gutter));
+    }
+
+    .frame-media_right-m {
+        left: calc(var(--side-small) / 2.3 * var(--index) + var(--gutter));
+    }
+
+    .text-left>* {
+        right: 28vw;
+    }
+
+    .framep-p {
+        max-width: 48vw;
+        margin-top: 1.5vh;
+    }
+
+    .framep p {
+        max-width: 48vw;
+        margin-top: 1.5vh;
+    }
+
+    .frame h3 {
+        font-size: calc(var(--index) * 2.5);
+    }
+
+    video.frame-media_left {
+        right: calc(var(--side-big));
+    }
+
+    video.frame-media {
+        /* width: 0; */
+        /* height: 0; */
+    }
+
+    .frame__content-end {
+        font-size: calc(var(--index) * 3);
+    }
+
+    .frame__content-name {
+        font-size: calc(var(--index) * 2.5);
+    }
+
+    .soundbutton {
+        width: 35px;
+    }
+}
